@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+  #mainNav {
+    height: 75px;
+  }
+}
+
+.navbar-light {
+  background-color: rgb(10,11,11)!important;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background: #1d2226;
+}
+
+@media (min-width: 991px) {
+  .modal_container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .rescale {
+    width: 300px;
+  }
+}
+

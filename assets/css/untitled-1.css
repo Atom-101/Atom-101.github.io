@@ -1,0 +1,72 @@
+.bg-primary {
+  background: #1d2226!important;
+}
+
+#Welcome {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+@media (max-width: 991px) {
+  .list_container {
+    display: none;
+  }
+}
+
+hr.star-dark:after {
+  color: #212529;
+  background-color: #969F9A;
+}
+
+.text-white {
+  color: #ffffff!important;
+}
+
+.text-secondary {
+  color: #212529!important;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #969f9a;
+  border-color: #212529;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(24,188,156,.25);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.light-card {
+  background-color: #969f9a;
+}
+
+.dark-card {
+  background-color: #1d2226;
+}
+
+.google_scholar {
+  background: url(../../assets/img/google-scholar.svg);
+}
+
+.hori-center-1, #hori-center-1 {
+  margin: 0;
+  position: absolute;
+  left: 48%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
